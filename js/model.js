@@ -24,7 +24,7 @@ if (localStorage.getItem("data") != null) {
             }, {
                 id: 4,
                 question: 'молния',
-                answers: 'il timulto'
+                answers: 'il lampo'
            }, {
                id: 5,
                question: 'закат',
