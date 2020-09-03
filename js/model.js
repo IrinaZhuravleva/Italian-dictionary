@@ -73,46 +73,130 @@ if (localStorage.getItem("data") != null) {
                 id: 15,
                 question: 'волнение',
                 answer: 'il timulto'
-            // }, {
-            //     id: 16,
-            //     question: '',
-            //     answer: ''
-            // }, {
-            //     id: 17,
-            //     question: '',
-            //     answer: ''
+            }, {
+                id: 16,
+                question: 'разочаровывать',
+                answer: 'deludere'
+            }, {
+                id: 17,
+                question: 'обмениваться',
+                answer: 'scambiare'
 
-            // }, {
-            //     id: 18,
-            //     question: '',
-            //     answer: ''
+            }, {
+                id: 18,
+                question: 'терять',
+                answer: 'smarrire'
 
-            // }, {
-            //     id: 19,
-            //     question: '',
-            //     answer: ''
-            // }, {
-            //     id: 20,
-            //     question: '',
-            //     answer: ''
-            // }, {
-            //     id: 21,
-            //     question: '',
-            //     answer: ''
-            // }, {
-            //     id: 22,
-            //     question: '',
-            //     answer: ''
+            }, {
+                id: 19,
+                question: 'вырезать',
+                answer: 'scolpire'
+            }, {
+                id: 20,
+                question: 'огурец',
+                answer: 'il cetriolo'
+            }, {
+                id: 21,
+                question: 'тратить',
+                answer: 'spendere'
+            }, {
+                id: 22,
+                question: 'расход',
+                answer: 'la spesa'
 
-            // }, {
-            //     id: 23,
-            //     question: '',
-            //     answer: ''
+            }, {
+                id: 23,
+                question: 'пудель',
+                answer: 'il barbone'
 
-            // }, {
-            //     id: 24,
-            //     question: '',
-            //     answer: ''
+            }, {
+                id: 24,
+                question: 'предотвращать',
+                answer: 'riparare'
+            }, {
+                id: 25,
+                question: 'защита',
+                answer: 'il riparo'
+            }, {
+                id: 26,
+                question: 'двигать',
+                answer: 'giocare'
+            }, {
+                id: 27,
+                question: 'каторга',
+                answer: 'la galera'
+
+            }, {
+                id: 28,
+                question: 'запирать на засов',
+                answer: 'sprangare'
+
+            }, {
+                id: 29,
+                question: 'извиваться',
+                answer: 'guizzare'
+            }, {
+                id: 30,
+                question: 'записная книжка',
+                answer: 'il taccuino'
+            }, {
+                id: 31,
+                question: 'спортзал',
+                answer: 'la palestra'
+            }, {
+                id: 32,
+                question: 'спичка',
+                answer: 'il fiammifero'
+
+
+            }, {
+                id: 33,
+                question: 'зажигалка',
+                answer: 'l\'accendino'
+            }, {
+                id: 34,
+                question: 'сушеная треска',
+                answer: 'lo stoccafisso'
+            }, {
+                id: 35,
+                question: 'задыхаться',
+                answer: 'ansimare'
+            }, {
+                id: 36,
+                question: 'бросать',
+                answer: 'cacciare'
+
+            }, {
+                id: 37,
+                question: 'темнеть',
+                answer: 'imbrunire'
+
+            }, {
+                id: 38,
+                question: 'сверлить',
+                answer: 'trapanare'
+            }, {
+                id: 39,
+                question: 'отходить',
+                answer: 'arretrare'
+            }, {
+                id: 40,
+                question: 'большой палец',
+                answer: 'il pollice'
+            }, {
+                id: 41,
+                question: '',
+                answer: ''
+
+            }, {
+                id: 42,
+                question: '',
+                answer: ''
+
+            }, {
+                id: 43,
+                question: '',
+                answer: ''
         }];
     localStorage.setItem('data', JSON.stringify(data));
 }
