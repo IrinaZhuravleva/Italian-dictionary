@@ -24,7 +24,7 @@ if (localStorage.getItem("data") != null) {
             }, {
                 id: 4,
                 question: 'молния',
-                answers: 'il lampo'
+                answer: 'il lampo'
            }, {
                id: 5,
                question: 'закат',
@@ -183,20 +183,20 @@ if (localStorage.getItem("data") != null) {
                 id: 40,
                 question: 'большой палец',
                 answer: 'il pollice'
-            }, {
-                id: 41,
-                question: '',
-                answer: ''
+            // }, {
+            //     id: 41,
+            //     question: '',
+            //     answer: ''
 
-            }, {
-                id: 42,
-                question: '',
-                answer: ''
+            // }, {
+            //     id: 42,
+            //     question: '',
+            //     answer: ''
 
-            }, {
-                id: 43,
-                question: '',
-                answer: ''
+            // }, {
+            //     id: 43,
+            //     question: '',
+            //     answer: ''
         }];
     localStorage.setItem('data', JSON.stringify(data));
 }
