@@ -15,7 +15,7 @@ if (localStorage.getItem("data") != null) {
             }, {
                 id: 2,
                 question: 'гобелен',
-                answer: 'l arazzo'
+                answer: 'l\'arazzo'
             }, {
                 id: 3,
                 question: 'спасение',
@@ -68,7 +68,7 @@ if (localStorage.getItem("data") != null) {
            }, {
                id: 14,
                question: 'створка шкафа',
-               answer: 'l\' anta'
+               answer: 'l\'anta'
             }, {
                 id: 15,
                 question: 'волнение',
