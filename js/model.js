@@ -183,20 +183,108 @@ if (localStorage.getItem("data") != null) {
                 id: 40,
                 question: 'большой палец',
                 answer: 'il pollice'
-            // }, {
-            //     id: 41,
-            //     question: '',
-            //     answer: ''
+            }, {
+                id: 41,
+                question: 'наклонять',
+                answer: 'chinare'
 
-            // }, {
-            //     id: 42,
-            //     question: '',
-            //     answer: ''
+            }, {
+                id: 42,
+                question: 'рыться',
+                answer: 'frugare'
 
-            // }, {
-            //     id: 43,
-            //     question: '',
-            //     answer: ''
+            }, {
+                id: 43,
+                question: 'затруднение',
+                answer: 'l\'impiccio'
+            }, {
+                id: 44,
+                question: 'обманывать',
+                answer: 'infinocchiare'
+            }, {
+                id: 45,
+                question: 'фенхель',
+                answer: 'il finocchio'
+            }, {
+                id: 46,
+                question: 'бочка',
+                answer: 'la botta'
+
+            }, {
+                id: 47,
+                question: 'полоскать',
+                answer: 'richiacquare'
+
+            }, {
+                id: 48,
+                question: 'неподражаемый',
+                answer: 'inimitabile'
+            }, {
+                id: 49,
+                question: 'воздыхательница',
+                answer: 'la spasimante'
+            }, {
+                id: 50,
+                question: 'надоедать',
+                answer: 'fastidiare'
+            }, {
+                id: 51,
+                question: 'опустошать',
+                answer: 'svuotare'
+
+            }, {
+                id: 52,
+                question: 'доверие',
+                answer: 'la fiducia'
+
+            }, {
+                id: 53,
+                question: 'pianeggiare',
+                answer: 'уравнивать'
+            }, {
+                id: 54,
+                question: '',
+                answer: ''
+            }, {
+                id: 55,
+                question: 'радость',
+                answer: 'la letizia'
+            }, {
+                id: 56,
+                question: 'опьянять',
+                answer: 'inebriare'
+
+            }, {
+                id: 57,
+                question: 'пагубный',
+                answer: 'malefico'
+
+            }, {
+                id: 58,
+                question: 'опытность',
+                answer: 'la perizia'
+            }, {
+                id: 59,
+                question: 'сталь',
+                answer: 'l\'acciaio'
+            }, {
+                id: 60,
+                question: 'мороз',
+                answer: 'il gelo'
+            }, {
+                id: 61,
+                question: 'блаженство',
+                answer: 'la beatitudine'
+
+            }, {
+                id: 62,
+                question: 'скрывать',
+                answer: 'celare'
+
+            }, {
+                id: 63,
+                question: 'ложь',
+                answer: 'la bugia'
         }];
     localStorage.setItem('data', JSON.stringify(data));
 }
