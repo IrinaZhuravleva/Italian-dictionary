@@ -285,6 +285,94 @@ if (localStorage.getItem("data") != null) {
                 id: 63,
                 question: 'ложь',
                 answer: 'la bugia'
+            }, {
+                id: 64,
+                question: 'расследование',
+                answer: 'l\'indagine'
+            }, {
+                id: 65,
+                question: 'сокращаться',
+                answer: 'accorciare'
+            }, {
+                id: 66,
+                question: 'прощаться',
+                answer: 'congedarsi'
+
+            }, {
+                id: 67,
+                question: 'подавать',
+                answer: 'porgere'
+
+            }, {
+                id: 68,
+                question: 'преуменьшение',
+                answer: 'la menomazione'
+            }, {
+                id: 69,
+                question: 'собранный',
+                answer: 'colto'
+            }, {
+                id: 70,
+                question: 'соглашение',
+                answer: 'il patteggiamento'
+            }, {
+                id: 71,
+                question: 'сапог',
+                answer: 'lo stivale'
+
+            }, {
+                id: 72,
+                question: 'приводить к этому',
+                answer: 'pararci'
+
+            }, {
+                id: 73,
+                question: 'пробовать',
+                answer: 'campionare'
+            }, {
+                id: 74,
+                question: 'кегля',
+                answer: 'il birillo'
+            }, {
+                id: 75,
+                question: 'сущность',
+                answer: 'il midollo'
+            }, {
+                id: 76,
+                question: 'крем-пудра',
+                answer: 'il fondotinta'
+
+            }, {
+                id: 77,
+                question: 'смущенный',
+                answer: 'impacciato'
+
+            }, {
+                id: 78,
+                question: 'вой',
+                answer: 'il guaito'
+            }, {
+                id: 79,
+                question: 'охотничья собака',
+                answer: 'il bracco'
+            }, {
+                id: 80,
+                question: 'вездеход',
+                answer: 'il fuoristrada'
+            }, {
+                id: 81,
+                question: 'иностранец',
+                answer: 'il forestiero'
+
+            }, {
+                id: 82,
+                question: 'болтать',
+                answer: 'chiacchierare'
+
+            }, {
+                id: 83,
+                question: 'распутье',
+                answer: 'il bivio'
         }];
     localStorage.setItem('data', JSON.stringify(data));
 }
