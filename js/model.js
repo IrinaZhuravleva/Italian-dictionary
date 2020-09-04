@@ -1,4 +1,42 @@
+// https: //www.tania-soleil.com/proverbi-italiani/
 let tralivali;
+
+let proverbList = [
+    "Aiutati che Dio t’aiuta.<br />Под лежачий камень вода не течет.",
+    "A caval donato non si guarda in bocca.	Дареному коню в зубы не смотрят.",
+    "A goccia a goccia, si scava la roccia.	Вода камень точит.",
+    "A chi non beve birra, Dio neghi anche l’acqua.	Того, кто не пьёт пива, Бог может лишить воды.",
+    "Al povero mancano tante cose, all’avaro tutte.	Бедняку не хватает многих вещей, жадному – всего.",
+    "Aiutati che Dio t’aiuta.	Под лежачий камень вода не течет.",
+    "Accade più in un’ora che in cent’anni.	Порой за час случается больше, чем за сотню лет.",
+    "Altro è correre, altro è arrivare.	Одно дело бежать, другое — добежать.",
+    "Accada quello che deve e vada il mondo a rotoli.	Пусть будет, что будет, и пусть весь мир летит вверх тормашками.",
+    "Bellezza senza bontà è come vino svanito.	Красота без доброты подобна выдохшемуся вину.",
+    "Bocca baciata non perde ventura, anzi si rinnova come fa la luna.	От поцелуя уста не блекнут.",
+    "Burlando si dice il vero.	В каждой шутке есть доля правды.",
+    "Cacio è sano; se vien di scarsa mano.	Сыр хорош, если взять немного (всё хорошо в меру).",
+    "C’è chi mangia senza lavorare e chi lavora senza mangiare.	Иногда тот ест,  кто не работает, а кто работает — не ест.",
+    "Che nessuno faccia il passo più lungo della gamba.	Нельзя сделать шаг больше, чем позволяет длина ноги.",
+    "Chi cammina diritto campa afflitto.	Кто поступает честно, живёт в печали.",
+    "Chi cerca — trova e chi domanda intende.	Кто ищет, тот найдет, кто спросит, тот поймет.",
+    "Chi la dura la vince.	Кто упрям, тот победит.",
+    "Сhi lingua ha a Roma va.	У кого язык есть, до Рима дойдет.",
+    "Chi misura se stesso, misura tutto il mondo.	Кто знает себя, знает весь мир",
+    "Chi non lavora, non mangia.	Кто не работает, тот не ест.",
+    "Chi troppo vuole, nulla stringe.	Кто много хочет, ничего не получит.",
+    "Chi trova un amico, trova un tesoro.	Кто нашел друга, нашел сокровище.",
+    "Chi vive nel passato, muore disperato.	Живущий прошлым умрёт от отчаяния.",
+    "Chi teme acqua e vento non si metta in mare.	Воды бояться – моряком не бывать.",
+    "Due paradisi non si godono mai.	Двумя Раями не насладишься.",
+    "Detto, fatto.	Сказано — сделано.",
+    "Dopo il cattivo vien il buono.	Нет худа без добра.",
+    "Errore riconosciuto conduce alla verità.	Признанная ошибка приводит к истине.",
+    "Fin alla bara sempre se n’impara.	Век живи, век учись.",
+    "Fatti i cazzi tuoi, ca campi cent’anni.	Занимайся своими делами и проживёшь до ста лет.",
+    "Grande è la forza dell’abitudine.	Великая сила привычки.",
+    "Gli amici degli amici sono amici nostri.	Друзья наших друзей — наши друзья."
+]
+
 let data;
 
 const courses = document.querySelectorAll('#exampleFormControlSelect1 option');

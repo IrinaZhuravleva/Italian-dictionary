@@ -1,10 +1,12 @@
 var button = document.querySelector('button');
 var nextButton = document.querySelector('button.nextButton');
 var expressionNumber = document.querySelector('.expression-number');
+let proverb = document.querySelector('.proverb')
+let questionCounter = 0;
+let currentQuestionIndex = 0;
+
 
 nextButton.disabled = true;
-
-var currentQuestionIndex = 0;
 
 expressionNumber.innerText = `Слово: ${currentQuestionIndex + 1} из ${data.length}`;
 
@@ -15,12 +17,6 @@ function showQuestion() {
     //функция добавления вопроса на сайт, принимающая слово для показа
     addQuestionToSite(questionToShow);
 }
-
-
-
-
-
-//проверка, если индекс вопроса == индекс ответа
 
 let tralivaliShuffled = shuffle(data);
 
@@ -79,6 +75,19 @@ function nextQuestion() {
 }
 tralivaliShuffled
 function nextButtonClickHandler() {
+if (questionCounter % 2 === 0) {
+    proverb.style.display = "flex";
+    let j = randomInteger(0, proverbList.length - 1);
+    console.log(j);
+    document.querySelector('.proverb-expression').innerHTML = proverbList[j];
+
+    function hideProverb() {
+        proverb.style.display = "none";
+    }
+    setTimeout(hideProverb, 4000);
+}
+
+
     if (currentQuestionIndex === tralivaliShuffled.length - 1) {
         clearAnswersHTML();
         if (document.querySelector('.checking-correct').style.display == 'block') {
@@ -103,6 +112,7 @@ function clearAnswersHTML() {
 }
 
 nextButton.addEventListener('click', function () {
+    questionCounter++;
     nextButtonClickHandler();
 })
 
