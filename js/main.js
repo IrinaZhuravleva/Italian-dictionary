@@ -75,7 +75,7 @@ function nextQuestion() {
 }
 tralivaliShuffled
 function nextButtonClickHandler() {
-if (questionCounter % 10 === 0) {
+if (questionCounter % 7 === 0) {
     proverb.style.display = "flex";
     let j = randomInteger(0, proverbList.length - 1);
     console.log(j);
@@ -84,7 +84,7 @@ if (questionCounter % 10 === 0) {
     function hideProverb() {
         proverb.style.display = "none";
     }
-    setTimeout(hideProverb, 4000);
+    setTimeout(hideProverb, 5000);
 }
 
 
