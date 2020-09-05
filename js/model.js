@@ -46,10 +46,13 @@ if (localStorage.getItem("data") != null) {
         
 } else {
     data = [{
-            id: 0,
+                id: 0,
                 question: 'телосложение',
                 answer: 'la fatezza',
-
+            }, {
+                id: 1,
+                question: 'печь',
+                answer: 'la stufa'
             }, {
                 id: 2,
                 question: 'гобелен',
@@ -75,12 +78,10 @@ if (localStorage.getItem("data") != null) {
                id: 7,
                question: 'разбираться',
                answer: 'raccapezzarsi'
-
            }, {
                id: 8,
                question: 'отнимать',
                answer: 'togliere'
-
            }, {
                id: 9,
                question: 'проектировать',
@@ -119,12 +120,10 @@ if (localStorage.getItem("data") != null) {
                 id: 17,
                 question: 'обмениваться',
                 answer: 'scambiare'
-
             }, {
                 id: 18,
                 question: 'терять',
                 answer: 'smarrire'
-
             }, {
                 id: 19,
                 question: 'вырезать',
@@ -163,12 +162,10 @@ if (localStorage.getItem("data") != null) {
                 id: 27,
                 question: 'каторга',
                 answer: 'la galera'
-
             }, {
                 id: 28,
                 question: 'запирать на засов',
                 answer: 'sprangare'
-
             }, {
                 id: 29,
                 question: 'извиваться',
@@ -185,8 +182,6 @@ if (localStorage.getItem("data") != null) {
                 id: 32,
                 question: 'спичка',
                 answer: 'il fiammifero'
-
-
             }, {
                 id: 33,
                 question: 'зажигалка',
@@ -203,12 +198,10 @@ if (localStorage.getItem("data") != null) {
                 id: 36,
                 question: 'бросать',
                 answer: 'cacciare'
-
             }, {
                 id: 37,
                 question: 'темнеть',
                 answer: 'imbrunire'
-
             }, {
                 id: 38,
                 question: 'сверлить',
@@ -225,12 +218,10 @@ if (localStorage.getItem("data") != null) {
                 id: 41,
                 question: 'наклонять',
                 answer: 'chinare'
-
             }, {
                 id: 42,
                 question: 'рыться',
                 answer: 'frugare'
-
             }, {
                 id: 43,
                 question: 'затруднение',
@@ -247,12 +238,10 @@ if (localStorage.getItem("data") != null) {
                 id: 46,
                 question: 'бочка',
                 answer: 'la botta'
-
             }, {
                 id: 47,
                 question: 'полоскать',
                 answer: 'richiacquare'
-
             }, {
                 id: 48,
                 question: 'неподражаемый',
@@ -269,20 +258,18 @@ if (localStorage.getItem("data") != null) {
                 id: 51,
                 question: 'опустошать',
                 answer: 'svuotare'
-
             }, {
                 id: 52,
                 question: 'доверие',
                 answer: 'la fiducia'
-
             }, {
                 id: 53,
                 question: 'уравнивать',
                 answer: 'pianeggiare'
             }, {
                 id: 54,
-                question: '',
-                answer: ''
+                question: 'тушить',
+                answer: 'stufare'    
             }, {
                 id: 55,
                 question: 'радость',
@@ -291,12 +278,10 @@ if (localStorage.getItem("data") != null) {
                 id: 56,
                 question: 'опьянять',
                 answer: 'inebriare'
-
             }, {
                 id: 57,
                 question: 'пагубный',
                 answer: 'malefico'
-
             }, {
                 id: 58,
                 question: 'опытность',
@@ -313,12 +298,10 @@ if (localStorage.getItem("data") != null) {
                 id: 61,
                 question: 'блаженство',
                 answer: 'la beatitudine'
-
             }, {
                 id: 62,
                 question: 'скрывать',
                 answer: 'celare'
-
             }, {
                 id: 63,
                 question: 'ложь',
@@ -335,12 +318,10 @@ if (localStorage.getItem("data") != null) {
                 id: 66,
                 question: 'прощаться',
                 answer: 'congedarsi'
-
             }, {
                 id: 67,
                 question: 'подавать',
                 answer: 'porgere'
-
             }, {
                 id: 68,
                 question: 'преуменьшение',
@@ -357,12 +338,10 @@ if (localStorage.getItem("data") != null) {
                 id: 71,
                 question: 'сапог',
                 answer: 'lo stivale'
-
             }, {
                 id: 72,
                 question: 'приводить к этому',
                 answer: 'pararci'
-
             }, {
                 id: 73,
                 question: 'пробовать',
@@ -379,12 +358,10 @@ if (localStorage.getItem("data") != null) {
                 id: 76,
                 question: 'крем-пудра',
                 answer: 'il fondotinta'
-
             }, {
                 id: 77,
                 question: 'смущенный',
                 answer: 'impacciato'
-
             }, {
                 id: 78,
                 question: 'вой',
@@ -401,12 +378,10 @@ if (localStorage.getItem("data") != null) {
                 id: 81,
                 question: 'иностранец',
                 answer: 'il forestiero'
-
             }, {
                 id: 82,
                 question: 'болтать',
                 answer: 'chiacchierare'
-
             }, {
                 id: 83,
                 question: 'распутье',
@@ -423,12 +398,10 @@ if (localStorage.getItem("data") != null) {
                 id: 86,
                 question: 'отказ',
                 answer: 'il rifuito'
-
             }, {
                 id: 87,
                 question: 'отделяться',
                 answer: 'staccarsi'
-
             }, {
                 id: 88,
                 question: 'плести',
@@ -445,12 +418,10 @@ if (localStorage.getItem("data") != null) {
                 id: 91,
                 question: 'оттенок',
                 answer: 'la sfumatura'
-
             }, {
                 id: 92,
                 question: 'недостаточный',
                 answer: 'scarso'
-
             }, {
                 id: 93,
                 question: 'куница',
@@ -467,12 +438,10 @@ if (localStorage.getItem("data") != null) {
                 id: 96,
                 question: 'отделение',
                 answer: 'lo scomparto'
-
             }, {
                 id: 97,
                 question: 'необходимый',
                 answer: 'l\'occorrente'
-
             }, {
                 id: 98,
                 question: 'бушевать',
@@ -489,12 +458,10 @@ if (localStorage.getItem("data") != null) {
                 id: 101,
                 question: 'откидываться',
                 answer: 'roveschiarsi'
-
             }, {
                 id: 102,
                 question: 'вязальный крючок',
                 answer: 'l\'uncinetto'
-
             }, {
                 id: 103,
                 question: 'вязать на спицах',
@@ -511,12 +478,10 @@ if (localStorage.getItem("data") != null) {
                 id: 105,
                 question: 'должность',
                 answer: 'la carica'
-
             }, {
                 id: 106,
                 question: 'пугать',
                 answer: 'spaventare'
-
             }, {
                 id: 107,
                 question: 'ловкость',
@@ -533,12 +498,10 @@ if (localStorage.getItem("data") != null) {
                 id: 110,
                 question: 'взломщик',
                 answer: 'lo scassinatore'
-
             }, {
                 id: 111,
                 question: 'хитрый',
                 answer: 'furbo'
-
             }, {
                 id: 112,
                 question: 'необычный',
@@ -555,20 +518,10 @@ if (localStorage.getItem("data") != null) {
                 id: 115,
                 question: 'моделировать',
                 answer: 'sagomare'
-
             }, {
                 id: 116,
                 question: 'контур',
                 answer: 'la sagoma'
-
-            }, {
-                id: 117,
-                question: 'печь',
-                answer: 'la stufa'
-            }, {
-                id: 118,
-                question: 'тушить',
-                answer: 'stufare'
             // }, {
             //     id: ,
             //     question: '',
