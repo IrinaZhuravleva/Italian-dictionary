@@ -522,24 +522,24 @@ if (localStorage.getItem("data") != null) {
                 id: 116,
                 question: 'контур',
                 answer: 'la sagoma'
-            // }, {
-            //     id: ,
-            //     question: '',
-            //     answer: ''
-            // }, {
-            //     id: ,
-            //     question: '',
-            //     answer: ''
+            }, {
+                id: 117,
+                question: 'растрачивать',
+                answer: 'sprecare'
+            }, {
+                id: 118,
+                question: 'выбросить',
+                answer: 'buttare'
 
-            // }, {
-            //     id: ,
-            //     question: '',
-            //     answer: ''
+            }, {
+                id: 119,
+                question: 'беречь',
+                answer: 'risparmiare'
 
-            // }, {
-            //     id: ,
-            //     question: '',
-            //     answer: ''
+            }, {
+                id: 120,
+                question: 'слух',
+                answer: 'pettegolezzo'
             // }, {
                 //     id: ,
                 //     question: '',
